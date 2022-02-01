@@ -1,13 +1,15 @@
-import React from 'react';
-import { Track } from './TrackCard';
+import { useContext } from 'react';
+import { TracksContext } from '../context/TracksContext';
+import { TracksProps } from '../customHooks/useTracks';
 
-const TrackPlayer = ({ preview_url, duration_ms }: Pick<Track, 'preview_url' | 'duration_ms'>) => {
-  if (!preview_url) return <h1>No track preview available</h1>
+const TrackPlayer = () => {
+  const { track } = useContext<TracksProps>(TracksContext)
+  if (!track!.preview_url) return <h1>No track preview available</h1>
   return (<div>
-      {duration_ms}
+      {track!.duration_ms}
 
       <audio controls>
-        <source src={preview_url} type='audio/mpeg' />
+        <source src={track!.preview_url} type='audio/mpeg' />
       </audio>
     </div>);
 }
