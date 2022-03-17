@@ -3,10 +3,11 @@ import { useEffect, useState } from "react";
 import { mapSpotifyResponse } from "../services/utils";
 import { Track } from "../components/TrackCard";
 
-export type TracksProps = {track: Track | null; isLoading: boolean;}
+export type TracksProps = { track: Track | null; isLoading: boolean };
 
 const useTracks = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [track, setTrack] = useState<Track | null>(null);
 
   const delay = (ms: number) => new Promise((res) => setTimeout(res, ms));
@@ -19,8 +20,8 @@ const useTracks = () => {
     }
     asyncDelay();
   }, []);
-  
-  return { isLoading, track };
+
+  return { isLoading, isPlaying, setIsPlaying, track };
 };
 
 export default useTracks;
