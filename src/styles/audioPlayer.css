@@ -1,3 +1,40 @@
 .audioPlayer {
+  --primary: #f40082;
+  --secondary: #441ab6;
+
   display: flex;
+  align-items: center;
+}
+
+.forwardBackward {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.forwardBackward:hover {
+  color: var(--primary);
+}
+
+.playPause {
+  background: var(--primary);
+  padding: 1px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 55px;
+  font-size: 32px;
+  color: var(--secondary);
+}
+
+.play {
+  position: relative;
+  left: 2px;
 }
