@@ -2,11 +2,7 @@
   "album": {
     "album_type": "compilation",
     "total_tracks": 9,
-    "available_markets": [
-      "CA",
-      "BR",
-      "IT"
-    ],
+    "available_markets": ["CA", "BR", "IT"],
     "external_urls": {
       "spotify": "string"
     },
@@ -50,10 +46,7 @@
         "href": "string",
         "total": 0
       },
-      "genres": [
-        "Prog rock",
-        "Grunge"
-      ],
+      "genres": ["Prog rock", "Grunge"],
       "href": "string",
       "id": "string",
       "images": [
@@ -69,11 +62,9 @@
       "uri": "string"
     }
   ],
-  "available_markets": [
-    "string"
-  ],
+  "available_markets": ["string"],
   "disc_number": 0,
-  "duration_ms": 204000,
+  "duration_ms": 298999,
   "explicit": true,
   "external_ids": {
     "isrc": "string",
@@ -90,11 +81,7 @@
     "album": {
       "album_type": "compilation",
       "total_tracks": 9,
-      "available_markets": [
-        "CA",
-        "BR",
-        "IT"
-      ],
+      "available_markets": ["CA", "BR", "IT"],
       "external_urls": {
         "spotify": "string"
       },
@@ -138,10 +125,7 @@
           "href": "string",
           "total": 0
         },
-        "genres": [
-          "Prog rock",
-          "Grunge"
-        ],
+        "genres": ["Prog rock", "Grunge"],
         "href": "string",
         "id": "string",
         "images": [
@@ -157,9 +141,7 @@
         "uri": "string"
       }
     ],
-    "available_markets": [
-      "string"
-    ],
+    "available_markets": ["string"],
     "disc_number": 0,
     "duration_ms": 0,
     "explicit": true,
@@ -178,11 +160,7 @@
       "album": {
         "album_type": "compilation",
         "total_tracks": 9,
-        "available_markets": [
-          "CA",
-          "BR",
-          "IT"
-        ],
+        "available_markets": ["CA", "BR", "IT"],
         "external_urls": {
           "spotify": "string"
         },
@@ -226,10 +204,7 @@
             "href": "string",
             "total": 0
           },
-          "genres": [
-            "Prog rock",
-            "Grunge"
-          ],
+          "genres": ["Prog rock", "Grunge"],
           "href": "string",
           "id": "string",
           "images": [
@@ -245,9 +220,7 @@
           "uri": "string"
         }
       ],
-      "available_markets": [
-        "string"
-      ],
+      "available_markets": ["string"],
       "disc_number": 0,
       "duration_ms": 0,
       "explicit": true,
@@ -266,11 +239,7 @@
         "album": {
           "album_type": "compilation",
           "total_tracks": 9,
-          "available_markets": [
-            "CA",
-            "BR",
-            "IT"
-          ],
+          "available_markets": ["CA", "BR", "IT"],
           "external_urls": {
             "spotify": "string"
           },
@@ -314,10 +283,7 @@
               "href": "string",
               "total": 0
             },
-            "genres": [
-              "Prog rock",
-              "Grunge"
-            ],
+            "genres": ["Prog rock", "Grunge"],
             "href": "string",
             "id": "string",
             "images": [
@@ -333,9 +299,7 @@
             "uri": "string"
           }
         ],
-        "available_markets": [
-          "string"
-        ],
+        "available_markets": ["string"],
         "disc_number": 0,
         "duration_ms": 0,
         "explicit": true,
@@ -354,11 +318,7 @@
           "album": {
             "album_type": "compilation",
             "total_tracks": 9,
-            "available_markets": [
-              "CA",
-              "BR",
-              "IT"
-            ],
+            "available_markets": ["CA", "BR", "IT"],
             "external_urls": {
               "spotify": "string"
             },
@@ -402,10 +362,7 @@
                 "href": "string",
                 "total": 0
               },
-              "genres": [
-                "Prog rock",
-                "Grunge"
-              ],
+              "genres": ["Prog rock", "Grunge"],
               "href": "string",
               "id": "string",
               "images": [
@@ -421,9 +378,7 @@
               "uri": "string"
             }
           ],
-          "available_markets": [
-            "string"
-          ],
+          "available_markets": ["string"],
           "disc_number": 0,
           "duration_ms": 0,
           "explicit": true,
@@ -442,11 +397,7 @@
             "album": {
               "album_type": "compilation",
               "total_tracks": 9,
-              "available_markets": [
-                "CA",
-                "BR",
-                "IT"
-              ],
+              "available_markets": ["CA", "BR", "IT"],
               "external_urls": {
                 "spotify": "string"
               },
@@ -490,10 +441,7 @@
                   "href": "string",
                   "total": 0
                 },
-                "genres": [
-                  "Prog rock",
-                  "Grunge"
-                ],
+                "genres": ["Prog rock", "Grunge"],
                 "href": "string",
                 "id": "string",
                 "images": [
@@ -509,9 +457,7 @@
                 "uri": "string"
               }
             ],
-            "available_markets": [
-              "string"
-            ],
+            "available_markets": ["string"],
             "disc_number": 0,
             "duration_ms": 0,
             "explicit": true,
@@ -530,11 +476,7 @@
               "album": {
                 "album_type": "compilation",
                 "total_tracks": 9,
-                "available_markets": [
-                  "CA",
-                  "BR",
-                  "IT"
-                ],
+                "available_markets": ["CA", "BR", "IT"],
                 "external_urls": {
                   "spotify": "string"
                 },
@@ -578,10 +520,7 @@
                     "href": "string",
                     "total": 0
                   },
-                  "genres": [
-                    "Prog rock",
-                    "Grunge"
-                  ],
+                  "genres": ["Prog rock", "Grunge"],
                   "href": "string",
                   "id": "string",
                   "images": [
@@ -597,9 +536,7 @@
                   "uri": "string"
                 }
               ],
-              "available_markets": [
-                "string"
-              ],
+              "available_markets": ["string"],
               "disc_number": 0,
               "duration_ms": 0,
               "explicit": true,
@@ -618,11 +555,7 @@
                 "album": {
                   "album_type": "compilation",
                   "total_tracks": 9,
-                  "available_markets": [
-                    "CA",
-                    "BR",
-                    "IT"
-                  ],
+                  "available_markets": ["CA", "BR", "IT"],
                   "external_urls": {
                     "spotify": "string"
                   },
@@ -666,10 +599,7 @@
                       "href": "string",
                       "total": 0
                     },
-                    "genres": [
-                      "Prog rock",
-                      "Grunge"
-                    ],
+                    "genres": ["Prog rock", "Grunge"],
                     "href": "string",
                     "id": "string",
                     "images": [
@@ -685,9 +615,7 @@
                     "uri": "string"
                   }
                 ],
-                "available_markets": [
-                  "string"
-                ],
+                "available_markets": ["string"],
                 "disc_number": 0,
                 "duration_ms": 0,
                 "explicit": true,
@@ -706,11 +634,7 @@
                   "album": {
                     "album_type": "compilation",
                     "total_tracks": 9,
-                    "available_markets": [
-                      "CA",
-                      "BR",
-                      "IT"
-                    ],
+                    "available_markets": ["CA", "BR", "IT"],
                     "external_urls": {
                       "spotify": "string"
                     },
@@ -754,10 +678,7 @@
                         "href": "string",
                         "total": 0
                       },
-                      "genres": [
-                        "Prog rock",
-                        "Grunge"
-                      ],
+                      "genres": ["Prog rock", "Grunge"],
                       "href": "string",
                       "id": "string",
                       "images": [
@@ -773,9 +694,7 @@
                       "uri": "string"
                     }
                   ],
-                  "available_markets": [
-                    "string"
-                  ],
+                  "available_markets": ["string"],
                   "disc_number": 0,
                   "duration_ms": 0,
                   "explicit": true,
@@ -794,11 +713,7 @@
                     "album": {
                       "album_type": "compilation",
                       "total_tracks": 9,
-                      "available_markets": [
-                        "CA",
-                        "BR",
-                        "IT"
-                      ],
+                      "available_markets": ["CA", "BR", "IT"],
                       "external_urls": {
                         "spotify": "string"
                       },
@@ -842,10 +757,7 @@
                           "href": "string",
                           "total": 0
                         },
-                        "genres": [
-                          "Prog rock",
-                          "Grunge"
-                        ],
+                        "genres": ["Prog rock", "Grunge"],
                         "href": "string",
                         "id": "string",
                         "images": [
@@ -861,9 +773,7 @@
                         "uri": "string"
                       }
                     ],
-                    "available_markets": [
-                      "string"
-                    ],
+                    "available_markets": ["string"],
                     "disc_number": 0,
                     "duration_ms": 0,
                     "explicit": true,
@@ -882,11 +792,7 @@
                       "album": {
                         "album_type": "compilation",
                         "total_tracks": 9,
-                        "available_markets": [
-                          "CA",
-                          "BR",
-                          "IT"
-                        ],
+                        "available_markets": ["CA", "BR", "IT"],
                         "external_urls": {
                           "spotify": "string"
                         },
@@ -928,24 +834,17 @@
                             "href": "string",
                             "total": 0
                           },
-                          "genres": [
-                            "Prog rock",
-                            "Grunge"
-                          ],
+                          "genres": ["Prog rock", "Grunge"],
                           "href": "string",
                           "id": "string",
-                          "images": [
-                            {}
-                          ],
+                          "images": [{}],
                           "name": "string",
                           "popularity": 0,
                           "type": "artist",
                           "uri": "string"
                         }
                       ],
-                      "available_markets": [
-                        "string"
-                      ],
+                      "available_markets": ["string"],
                       "disc_number": 0,
                       "duration_ms": 0,
                       "explicit": true,
@@ -964,19 +863,13 @@
                         "album": {
                           "album_type": "compilation",
                           "total_tracks": 9,
-                          "available_markets": [
-                            "CA",
-                            "BR",
-                            "IT"
-                          ],
+                          "available_markets": ["CA", "BR", "IT"],
                           "external_urls": {
                             "spotify": "string"
                           },
                           "href": "string",
                           "id": "2up3OPMp9Tb4dAKM2erWXQ",
-                          "images": [
-                            {}
-                          ],
+                          "images": [{}],
                           "name": "string",
                           "release_date": "1981-12",
                           "release_date_precision": "year",
@@ -986,32 +879,23 @@
                           "type": "album",
                           "uri": "spotify:album:2up3OPMp9Tb4dAKM2erWXQ",
                           "album_group": "compilation",
-                          "artists": [
-                            {}
-                          ]
+                          "artists": [{}]
                         },
                         "artists": [
                           {
                             "external_urls": {},
                             "followers": {},
-                            "genres": [
-                              "Prog rock",
-                              "Grunge"
-                            ],
+                            "genres": ["Prog rock", "Grunge"],
                             "href": "string",
                             "id": "string",
-                            "images": [
-                              {}
-                            ],
+                            "images": [{}],
                             "name": "string",
                             "popularity": 0,
                             "type": "artist",
                             "uri": "string"
                           }
                         ],
-                        "available_markets": [
-                          "string"
-                        ],
+                        "available_markets": ["string"],
                         "disc_number": 0,
                         "duration_ms": 0,
                         "explicit": true,
@@ -1030,17 +914,11 @@
                           "album": {
                             "album_type": "compilation",
                             "total_tracks": 9,
-                            "available_markets": [
-                              "CA",
-                              "BR",
-                              "IT"
-                            ],
+                            "available_markets": ["CA", "BR", "IT"],
                             "external_urls": {},
                             "href": "string",
                             "id": "2up3OPMp9Tb4dAKM2erWXQ",
-                            "images": [
-                              {}
-                            ],
+                            "images": [{}],
                             "name": "string",
                             "release_date": "1981-12",
                             "release_date_precision": "year",
@@ -1048,9 +926,7 @@
                             "type": "album",
                             "uri": "spotify:album:2up3OPMp9Tb4dAKM2erWXQ",
                             "album_group": "compilation",
-                            "artists": [
-                              {}
-                            ]
+                            "artists": [{}]
                           },
                           "artists": [
                             {
@@ -1058,9 +934,7 @@
                               "images": []
                             }
                           ],
-                          "available_markets": [
-                            "string"
-                          ],
+                          "available_markets": ["string"],
                           "disc_number": 0,
                           "duration_ms": 0,
                           "explicit": true,
@@ -1081,12 +955,8 @@
                               "images": [],
                               "artists": []
                             },
-                            "artists": [
-                              {}
-                            ],
-                            "available_markets": [
-                              null
-                            ],
+                            "artists": [{}],
+                            "available_markets": [null],
                             "disc_number": 0,
                             "duration_ms": 0,
                             "explicit": true,
@@ -1245,7 +1115,7 @@
   },
   "name": "Sweet and Sour",
   "popularity": 0,
-  "preview_url": "playing sweet and sour",
+  "preview_url": "https://actions.google.com/sounds/v1/water/small_stream_flowing.ogg",
   "track_number": 0,
   "type": "string",
   "uri": "string",
