@@ -7,7 +7,6 @@ export type TracksProps = { track: Track | null; isLoading: boolean };
 
 const useTracks = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [track, setTrack] = useState<Track | null>(null);
 
   const delay = (ms: number) => new Promise((res) => setTimeout(res, ms));
@@ -21,7 +20,7 @@ const useTracks = () => {
     asyncDelay();
   }, []);
 
-  return { isLoading, isPlaying, setIsPlaying, track };
+  return { isLoading, track };
 };
 
 export default useTracks;

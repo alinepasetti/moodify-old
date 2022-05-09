@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { TracksContext } from "../context/TracksContext";
-import useTracks, { TracksProps } from "../customHooks/useTracks";
+import { TracksProps } from "../customHooks/useTracks";
 
 import "../styles/audioPlayer.css";
 import {
@@ -13,9 +13,16 @@ import useCurrentTime from "../customHooks/useCurrentTime";
 
 const TrackPlayer = () => {
   const { track } = useContext<TracksProps>(TracksContext);
-  const { isPlaying, setIsPlaying } = useTracks();
-  const { currentTime, setCurrentTime, audioPlayer, calculateTime } =
-    useCurrentTime();
+  const {
+    currentTime,
+    audioPlayer,
+    duration,
+    calculateTime,
+    progressBar,
+    changeRange,
+    isPlaying,
+    setIsPlaying,
+  } = useCurrentTime();
 
   const togglePlayPause = () => {
     const prevValue = isPlaying;
@@ -31,7 +38,7 @@ const TrackPlayer = () => {
     <div className="audioPlayer">
       <audio
         ref={audioPlayer}
-        src={track!.preview_url}
+        src={"https://actions.google.com/sounds/v1/water/small_stream_flowing.ogg"}
         preload="metadata"
       ></audio>
       <button className="forwardBackward">
@@ -43,11 +50,19 @@ const TrackPlayer = () => {
       <button className="forwardBackward">
         <BsArrowRightShort />
       </button>
-      <div className="currentTime">{currentTime}</div>
+      <div className="currentTime">{calculateTime(currentTime)}</div>
       <div>
-        <input type="range" className="progressBar"></input>
+        <input
+          type="range"
+          className="progressBar"
+          defaultValue="0"
+          ref={progressBar}
+          onChange={() => changeRange(currentTime)}
+        ></input>
       </div>
-      <div className="duration">{(track!.duration_ms && !isNaN(track!.duration_ms)) && calculateTime(track!.duration_ms)}</div>
+      <div className="duration">
+        {duration && !isNaN(duration) && calculateTime(duration)}
+      </div>
     </div>
   );
 };

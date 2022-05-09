@@ -17,7 +17,6 @@ export type Track = {
 
 const TrackCard = () => {
   const { isLoading, track } = useContext(TracksContext);
-  console.log(track, isLoading);
 
   if (!track && isLoading) return <div>Loading...</div>;
 
