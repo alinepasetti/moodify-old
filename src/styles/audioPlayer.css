@@ -1,9 +1,32 @@
 .audioPlayer {
-  --primary: #f40082;
-  --secondary: #441ab6;
+  --primary: #17b24e;
+  --secondary: aliceblue;
 
   display: flex;
   align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.audioControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.progressBarContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.controlButton {
+  margin: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
 }
 
 .forwardBackward {
@@ -14,6 +37,11 @@
   font-family: monospace;
   font-size: 26px;
   cursor: pointer;
+  height: 45px;
+  width: 45px;
+  border-radius: 150px;
+  background: #202227;
+  box-shadow: 20px 20px 39px #16171b, -20px -20px 39px #2a2d33;
 }
 
 .forwardBackward:hover {
@@ -22,16 +50,14 @@
 
 .playPause {
   background: var(--primary);
-  padding: 1px;
   border: none;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 55px;
   width: 55px;
   font-size: 32px;
   color: var(--secondary);
+  border-radius: 150px;
+  background: #17b24e;
+  box-shadow: 20px 20px 39px #16171b, -20px -20px 39px #2a2d33;
 }
 
 .play {
@@ -43,6 +69,7 @@
 .duration {
   font-family: monospace;
   font-size: 16px;
+  margin-bottom: 0px;
 }
 
 .currentTime {
@@ -54,9 +81,9 @@
 }
 
 .progressBar {
-  --bar-bg: #ffe3d4;
+  --bar-bg: #dedede;
   --seek-before-width: 0;
-  --seek-before-color: #ffc2a1;
+  --seek-before-color: #b3b3b3;
   --knobby: #3452a5;
   --selectedKnobby: #26c9c3;
 
@@ -65,6 +92,8 @@
   border-radius: 10px;
   position: relative;
   width: 100%;
+  max-width: 12.93em;
+  min-width: 12.93em;
   height: 11px;
   outline: none;
 }

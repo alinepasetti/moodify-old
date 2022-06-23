@@ -36,32 +36,40 @@ const TrackPlayer = () => {
   if (!track!.preview_url) return <h1>No track preview available</h1>;
   return (
     <div className="audioPlayer">
-      <audio
-        ref={audioPlayer}
-        src={"https://actions.google.com/sounds/v1/water/small_stream_flowing.ogg"}
-        preload="metadata"
-      ></audio>
-      <button className="forwardBackward">
-        <BsArrowLeftShort />
-      </button>
-      <button className="playPause" onClick={togglePlayPause}>
-        {isPlaying ? <BsFillPauseFill /> : <BsFillPlayFill className="play" />}
-      </button>
-      <button className="forwardBackward">
-        <BsArrowRightShort />
-      </button>
-      <div className="currentTime">{calculateTime(currentTime)}</div>
-      <div>
-        <input
-          type="range"
-          className="progressBar"
-          defaultValue="0"
-          ref={progressBar}
-          onChange={() => changeRange(currentTime)}
-        ></input>
+      <div className="progressBarContainer">
+        <p className="currentTime">{calculateTime(currentTime)}</p>
+          <input
+            type="range"
+            className="progressBar"
+            defaultValue="0"
+            ref={progressBar}
+            onChange={() => changeRange(currentTime)}
+          ></input>
+        <p className="duration">
+          {duration && !isNaN(duration) && calculateTime(duration)}
+        </p>
       </div>
-      <div className="duration">
-        {duration && !isNaN(duration) && calculateTime(duration)}
+      <div className="audioControls">
+        <audio
+          ref={audioPlayer}
+          src={
+            "https://actions.google.com/sounds/v1/water/small_stream_flowing.ogg"
+          }
+          preload="metadata"
+        ></audio>
+        <button className="forwardBackward controlButton">
+          <BsArrowLeftShort />
+        </button>
+        <button className="playPause controlButton" onClick={togglePlayPause}>
+          {isPlaying ? (
+            <BsFillPauseFill />
+          ) : (
+            <BsFillPlayFill className="play" />
+          )}
+        </button>
+        <button className="forwardBackward controlButton skipButton">
+          <BsArrowRightShort />
+        </button>
       </div>
     </div>
   );
